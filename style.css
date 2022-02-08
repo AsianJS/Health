@@ -26,3 +26,7 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+.information{
+  font-size: 30px;
+  font-family:garamond;
+}
