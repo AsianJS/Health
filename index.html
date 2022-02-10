@@ -28,19 +28,19 @@
             <a class="nav-link" href="#habits">Habits</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Food</a>
+            <a class="nav-link" href="#food">Food</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Music</a>
+            <a class="nav-link" href="#music">Music</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hobby</a>
+            <a class="nav-link" href="#hobby">Hobby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">College</a>
+            <a class="nav-link" href="#college">College</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Interesting Fact</a>
+            <a class="nav-link" href="#interesting">Interesting Fact</a>
           </li>
         </ul>
       </div>
@@ -49,7 +49,7 @@
   <div class="hero-image" id="home">
     <div class="hero-text">
       <h1>Adrien Susino</h1>
-      <p>And I'm a Engineer</p>
+      <p>And I want to be an Engineer</p>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Career Information
       </button>
@@ -160,9 +160,85 @@
         </div>
       </div>
     </div>
+    <hr>
+    <div class="container">
+      <center>
+        <h1 class="title" id="food"><b><u>Food</u></b></h1>
+      </center>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">Who doesn't like pizza? Name me 5 people who doesn't like pizza and I can assure you that they will not anymore.</p>
+        </div>
+        <img src="https://ddl1ff62eln9g.cloudfront.net/ez-image/90431/Pizza_close.jpg?fh=1200&fw=600&h=1724&l=25&oh=2333&ow=3500&q=60&t=608&w=3449" class="card-img-bottom" alt="...">
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <center>
+        <h1 class="title" id="music"><b><u>Music</u></b></h1>
+        <img src="https://media.muzooka.com/images/6766138/landscape/16x9/large2.jpg" class="img-fluid music" alt="...">
+        <audio controls class="mt-5">
+          <source src="Kanye West  Gold Digger ft. Jamie Foxx.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    </center>
+    <hr>
+    <div class="container">
+      <center>
+        <h1 class="title" id="hobby"><b><u>Hobby</u></b></h1>
+      </center>
+      <div class="card">
+        <h5 class="card-header">Video Games</h5>
+        <div class="card-body">
+          <p class="card-text">Who doesn't like games?</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Pong</button>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content game">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <canvas width="750" height="585" id="game"></canvas>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <center>
+        <h1 class="title" id="college"><b><u>College</u></b></h1>
+      </center>
+      <div class="card mb-3">
+        <img src="https://stevenscollege.edu/monkimage.php?mediaDirectory=mediafiles&mediaId=6534323&fileName=tom-young-218-1200-630-0-0.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stevens Institute of Technology</h5>
+          <p class="card-text">It is a wonderful college to go to. Wonder what his experience is going to be.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <center>
+      <h1 class="title" id="interesting"><b><u>Interesting Fact</u></b></h1>
+    </center>
+    <main role="main">
+	<div class="content-wrapper">
+		<p id="press-quote">I got my hand stuck in an elevator when I was young. — Adrien Susino</p>
 
+	</div>
+</main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
